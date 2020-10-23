@@ -1,0 +1,294 @@
+ html body {
+ 	margin: 0;
+    padding: 0;
+    width: 100%;
+  background: #fffef0;
+}
+.carousel-caption{
+   margin-bottom: 600px;
+   color: black;
+}
+.trn
+{
+  background-image: linear-gradient(rgba(120, 119, 109),rgba(0,0,0,0));
+
+}
+
+nav ul {
+	margin-left: 600px;	
+}
+
+
+li{
+ 	padding-left: 50px;
+
+ }
+nav ul li a {
+	color: black !important;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+nav ul li button{
+	width: auto;
+    color:white;
+    padding:15px 20px;
+    border:solid 1px; 
+    border-radius:4px;
+    cursor:pointer;
+    text-align: center;
+}
+
+li a:hover {
+  color: #fcfad4 !important;
+}
+blockquote p{
+	font-size: 17px !important;
+
+}
+
+.clip{
+clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+
+.bw{
+	width: 100%;
+	padding: 20px;
+}
+.noschef{
+	text-align: center;
+}
+.cont{
+	background-color: 
+}
+/*-----------------------------------------------formulaire de contact-----------------------------------------------------------*/
+#co{
+  font-size: 50px;
+  color: #000000;
+  margin: 30px 100px 30px 550px;
+}
+.com{
+	  text-decoration: underline;
+	  background: #fff8c4;
+
+
+}
+input[type=text], textarea {
+  width: 60%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container2 input[type=submit] {
+  background-color: transparent;
+  color: black;
+  border: 2px solid #ccc;
+  padding: 12px 20px;
+}
+.container2 input[type=submit]:hover{
+    background-color:#791A1B
+  }
+
+
+.container2 {
+  background-color: #FDFDFE;
+  padding: 20px;
+  margin-left: 5%;
+  width: 500px;
+  height: 580px;
+  margin-top: 1px;
+}
+.container2 label{
+    color: black;
+    text-shadow: 0px white;
+}
+.footer p{
+      font-size: 20px
+
+}
+.imgm{
+  margin: -520px 10px 60px 700px ;
+}
+/*-------------------------------------------------- les mise en forme de footer--------------------------------------------------*/
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #000000 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+input[type=text], input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* ----------------------------------------modal---------------------------------------------------------------------- */
+button {
+  background-color: #24c72b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+
+select {
+  opacity: 50%
+  width: 600px;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;  
+  box-sizing: border-box;  
+  margin-top: 6px;
+  margin-bottom:16px;
+  resize:vertical;
+
+}
+input[type=datetime-local]{
+  opacity: 50%;
+  width: 250px;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;  
+  box-sizing: border-box;  
+  margin-top: 6px;
+  margin-bottom:16px;
+  resize:vertical;
+  }
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+
+
+
+
+
+
